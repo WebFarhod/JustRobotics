@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+/* @import url("https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap"); */
+
+/* @font-face {
+  font-family: "Involve";
+  src: url("/fonts/Involve-Regular.ttf") format("truetype");
+  font-weight:normal;
+  font-style: normal;
+} */
+@font-face {
+  font-family: "Involve";
+  src: url("/fonts/Involve-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Involve";
+  src: url("/fonts/Involve-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@theme {
+  --font-display: "Tektur";
+  --font-involve-normal: "Involve";
+  --font-involve-bold: "Involve";
+}
+
+body {
+  background-color: red;
+}
+
+.swiper-pagination {
+  @apply mt-6 !static;
+}
+
+.swiper-pagination {
+  margin-top: 24px;
+  position: static !important;
+  text-align: center;
+}
+
+.swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background: transparent;
+  border: 2px solid #f0d625;
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #f0d625 !important;
+}
