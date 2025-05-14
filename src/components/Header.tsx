@@ -51,22 +51,28 @@ const Header = () => {
               <div className=" absolute left-0 z-30 mt-2 w-[300px] origin-top-right ">
                 <div className="p-1 flex flex-col gap-[9px] bg-black/70 rounded-3xl">
                   <a
-                    href="#home"
+                    href="#"
                     className="rounded-[25px] border border-[#F0D625]  text-[#F0D625] py-[7px] px-[20px]"
                   >
-                    Bosh sahifa
+                    Робототехника
                   </a>
                   <a
                     href="#services"
                     className="rounded-[25px] border border-[#F0D625]  text-[#F0D625] py-[7px] px-[20px]"
                   >
-                    Xizmatlar
+                    Английский
                   </a>
                   <a
-                    href="#contact"
+                    href="#"
                     className="rounded-[25px] border border-[#F0D625]  text-[#F0D625] py-[7px] px-[20px]"
                   >
-                    Aloqa
+                    Живопись для детей
+                  </a>
+                  <a
+                    href="#"
+                    className="rounded-[25px] border border-[#F0D625]  text-[#F0D625] py-[7px] px-[20px]"
+                  >
+                    Живопись для взрослых
                   </a>
                 </div>
               </div>
